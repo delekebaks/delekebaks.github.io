@@ -1,0 +1,145 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  -ms-viewport {
+    width: device-width;
+  }
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+
+
+}
+nav,
+header,
+footer {
+    display: block;
+
+}
+.topnav a {
+    background-color: rgb(166, 255, 0);
+
+
+}
+ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(166, 255, 0);
+    padding: 10px 10px;
+    word-spacing: 10px;
+
+}
+ul li{
+display: inline;
+margin: 0 60px;
+border: 3px  rgb(23, 226, 141);
+border-radius: 30px;
+
+
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 50px;
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+
+}
+.active {
+background-color: #4caf50;
+color: white;
+}
+.topnav .icon {
+    display: none;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+  }
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  .move{
+      display: inline-block;
+      padding-bottom: 1px;
+  }
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+@media screen and (max-width: 600px) {
+    .topnav .responsive 
+    {position: relative;}
+    .topnav .responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav .responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+    header
+    {
+        background: #f30;
+        height: 55px;
+        padding-top: 25px;
+    }
+    footer{
+        background: #930
+    }
+    
+    }
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+    header
+    {
+        background: #c39;
+    }
+    footer {
+        background: #930;
+    
+    }
+    }
+    @media only screen and (min-width: 480px) and (max-width: 720px) {
+    header{
+        background: #93f;
+    
+    }
+    footer {
+        background: #699;
+    }
+    
+    
+    }
+    @media screen and (max-width: 500px){
+        .column{
+            width: 100%;
+        }
+        
+    }
+    
